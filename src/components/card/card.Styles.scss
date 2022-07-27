@@ -1,0 +1,25 @@
+.btn-card-comp {
+    background-color: #10b981 !important;
+    border: none !important;
+    &:hover {
+        background-color: #000 !important;
+    }
+    &:focus {
+        background-color: #000 !important;
+        box-shadow: none !important;
+    }
+}
+
+.card-type {
+    color: #000 !important;
+    font-weight: 500;
+}
+
+.card-title {
+    color: #10b981;
+}
+
+.despliegue {
+    // background-color: #10b981 !important;
+    color: white !important;
+}
