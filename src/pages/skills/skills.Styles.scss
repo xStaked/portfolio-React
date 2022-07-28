@@ -66,7 +66,7 @@
 
 .icons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -76,4 +76,17 @@
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
+}
+
+
+@media(max-width:644px) {
+  .icons {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    margin-bottom: 1.5rem;
+  }
 }

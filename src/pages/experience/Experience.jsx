@@ -1,25 +1,14 @@
-import React, { useEffect, useState} from "react";
+import React from "react";
 import { Container, Row, Col, ListGroup, Card } from "react-bootstrap";
 import "./experience.Styles.scss";
 const Experience = () => {
-
-    const [window, setWindow] = useState(true)
-
-    // useEffect(() => {
-    //     if( widthWindow < 644){
-    //         setWindow = "vertical"
-    //     }else {
-    //         setWindow = "horizontal"
-    //     }
-    // },[window])
-    
-
+  
   return (
-    <Container>
+    <Container id="experience">
       <Row>
         <Col className="text-center">
           <span className="sub-title">Experience</span>
-          <h3 className="title">Experiencia</h3>
+          <h3 className="title-exp">Experiencia</h3>
         </Col>
       </Row>
       <Row className="d-flex justify-content-center align-items-center">
@@ -36,11 +25,11 @@ const Experience = () => {
               diarias eran: Hablar con clientes, maquetar y desarrollador
               interfaces web tanto en codigo como en WordPress
             </p>
-            <ListGroup {...window ? "horizontal" :"vertical"}>
-              <ListGroup.Item>React</ListGroup.Item>
-              <ListGroup.Item>SASS</ListGroup.Item>
-              <ListGroup.Item>WordPress</ListGroup.Item>
-              <ListGroup.Item>Bootstrap</ListGroup.Item>
+            <ListGroup horizontal>
+              <span className="li-item mx-1">React</span>
+              <span className="li-item mx-1">SASS</span>
+              <span className="li-item mx-1">WordPress</span>
+              <span className="li-item mx-1">Bootstrap</span>
             </ListGroup>
           </Card.Body>
         </Card>
@@ -59,10 +48,10 @@ const Experience = () => {
                 aplicaciones webs en React
               </p>
               <ListGroup horizontal>
-                <ListGroup.Item>React</ListGroup.Item>
-                <ListGroup.Item>NextJS</ListGroup.Item>
-                <ListGroup.Item>TypeScript</ListGroup.Item>
-                <ListGroup.Item>TailwindCSS</ListGroup.Item>
+                <span className="li-item mx-1">React</span>
+                <span className="li-item mx-1">NextJS</span>
+                <span className="li-item mx-1">TypeScript</span>
+                <span className="li-item mx-1">TailwindCSS</span>
               </ListGroup>
             </Card.Body>
           </Card>

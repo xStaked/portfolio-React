@@ -1,0 +1,26 @@
+.btn-submit {
+    background-color: #10b981 !important;
+    border: none !important;
+    &:hover {
+        background-color: #000 !important;
+    }
+    &:focus {
+        background-color: #000 !important;
+        box-shadow: none !important;
+    }
+}
+
+.input-group {
+    width: 550px !important;
+    
+}
+
+.title-contact {
+    color:#10b981 ;
+    font-size: 3.75rem;
+}
+
+.sub-title-contact {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}

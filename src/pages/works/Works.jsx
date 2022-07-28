@@ -4,11 +4,11 @@ import CardComponent from "../../components/card/Card";
 import "./works.Styles.scss";
 const Works = () => {
   return (
-    <Container className="my-5">
+    <Container className="my-5" id="works">
       <Row>
         <Col className="text-center">
           <span className="sub-title">Portfolio</span>
-          <h3 className="title">Mis proyectos</h3>
+          <h3 className="title-portfolio">Mis proyectos</h3>
         </Col>
         <Row xl={12} lg={12} md={12} sm={12} className="container-icons">
           <Row className="d-flex justify-content-center align-items-center my-2">

@@ -11,7 +11,7 @@
 
 .title {
     color: black;
-    > span {
+    .sergio{
         font-weight: 600;
         color: #10b981;
     }
@@ -32,4 +32,16 @@
         color: #fff !important;
         background-color: #000;
     }
+}
+
+@media (max-width:644px) {
+  .heroImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-img {
+    width: 250px;
+    height: 250px;
+  }
 }
